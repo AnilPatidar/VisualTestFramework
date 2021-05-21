@@ -35,14 +35,12 @@ public class ApplitoolsClassicRunner {
 
 			Configuration testConfig = eyes.getConfiguration();
 			testConfig.setTestName("Help Center for New Customers");
-			testConfig.setMatchLevel(MatchLevel.STRICT);
+			testConfig.setMatchLevel(MatchLevel.EXACT);
 			eyes.setConfiguration(testConfig);
 
-			// Open Eyes, the application,test name and viewport size are allready
-			// configured
 			driver = eyes.open(driver);
 
-			driver.get("https://sites.google.com/view/helpcenter24x7/home");
+			driver.get("https://sites.google.com/view/helpcenter24x7/copy-of-home");
 
 			eyes.checkWindow("Home Page");
 

@@ -50,12 +50,16 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
 			<version>3.141.59</version>
-		</dependency>
-
+		</dependency> 
 		<dependency>
 			<groupId>com.applitools</groupId>
 			<artifactId>eyes-selenium-java3</artifactId>
 			<version>3.174.0</version>
+		</dependency> 
+		<dependency>
+			<groupId>com.applitools</groupId>
+			<artifactId>eyes-appium-java3</artifactId>
+    		<version>RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
